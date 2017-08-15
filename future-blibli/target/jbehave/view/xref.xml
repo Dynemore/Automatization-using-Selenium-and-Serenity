@@ -1,0 +1,39 @@
+<xref>
+  <whenMade>1502714051015</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to perform an action
+</narrative>
+      <name>searchChooseAddtoCart.story</name>
+      <path>stories/consult_dictionary/searchChooseAddtoCart.story</path>
+      <html>stories.consult_dictionary.searchChooseAddtoCart.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Go to blibli homepage and Login
+Given open home page
+When I login to blibli
+Then I can see my name in the site
+Given Already Logged in
+When I search product &apos;beras&apos; on search column
+And I choose product of the first column
+And I add the product to the bag
+Then I see my bag contained
+Given Continue to pay
+When insert BCA klik user id
+Then I see thank you page
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1502713890139</started>
+      <duration>138491</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

@@ -1,0 +1,11 @@
+Meta:
+
+Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal
+
+Scenario: Go to blibli homepage and Login
+Given open home page
+When I login to blibli
+Then I can see my name in the site

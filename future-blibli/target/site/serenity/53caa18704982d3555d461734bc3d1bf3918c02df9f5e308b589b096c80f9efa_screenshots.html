@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JBehave</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="e09e71bd9fe793fe8c2a517a17e7f4f25448667f4d76a96dcaf4fac94c2dd6e3.html">Search Choose Addto Cart</a>
+                > <a
+                    href="53caa18704982d3555d461734bc3d1bf3918c02df9f5e308b589b096c80f9efa.html">Go to blibli homepage and Login </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-08-2017 19:34</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search Choose Addto Cart </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user<br>I want to perform an action<br>So that I can achieve a business goal
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="8fe4662d745e6a2ca1cb5e40f83cf2818d840cafaed3772770d5cc33b55af7bb.html">Consult Dictionary
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Go to blibli homepage and Login
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_1dfce1b4318e18979973d0830f349754.png" title="Open" width="960"/>
+                <img src="scaled_8caef9b47c7d0c11ffc8d5424810bdd6.png" title="Clickuser login" width="960"/>
+                <img src="scaled_cf9a0fa638e2199330de04bcb2bdc342.png" title="Clickuser login" width="960"/>
+                <img src="scaled_2735da59c9445035cc9e24331c0eec5a.png" title="Check user already logged in" width="960"/>
+                <img src="scaled_47e6a95912cde9227fd8013812cdcb0b.png" title="Given Already Logged in" width="960"/>
+                <img src="scaled_37a96a8a1f97d66937fb2252239b28b3.png" title="Given Already Logged in" width="960"/>
+                <img src="scaled_4ed2dc5125626a37c5619dc5803e5008.png" title="Type search: &lt;span class='step-parameter'&gt;beras&lt;/span&gt;" width="960"/>
+                <img src="scaled_22eecf09966c021822d8ef5d69b7d592.png" title="Click search" width="960"/>
+                <img src="scaled_2241f84f7e8854e9fddcdb2eee0a62ec.png" title="Click search" width="960"/>
+                <img src="scaled_6a1d3c7a328322d177e06d404116650e.png" title="Close gojek pop up" width="960"/>
+                <img src="6a1d3c7a328322d177e06d404116650e.png" title="Choose product" width="960"/>
+                <img src="scaled_d39d80242da6657d71679c0bca8a04a4.png" title="Choose product" width="960"/>
+                <img src="scaled_bdbd9334a301fa04a368f83121651800.png" title="Add to cart" width="960"/>
+                <img src="scaled_1d98b1bf90cd462fcff16890e6d92f41.png" title="Check cart popup" width="960"/>
+                <img src="scaled_f7e6f230878a0abfc83a8ff4c03b488c.png" title="Continue to payment" width="960"/>
+                <img src="f7e6f230878a0abfc83a8ff4c03b488c.png" title="Continue to green payment button" width="960"/>
+                <img src="scaled_fbf0fe441dca9e2be96e3f4821af01ad.png" title="Continue to green payment button" width="960"/>
+                <img src="scaled_75b4711445a34af6a4424f2d250bc736.png" title="Insert klik bca user id" width="960"/>
+                <img src="scaled_dc8743d774dbcc45e9b554e1d04e7d63.png" title="Insert klik bca user id" width="960"/>
+                <img src="scaled_a7eb9edbd35948d4d1e55b1f7fcd6537.png" title="Click last check out button" width="960"/>
+                <img src="scaled_a2cea1c58677d00bb06b2486b6f067a0.png" title="Click last check out button: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.26</span>
+</div>
+</body>
+</html>

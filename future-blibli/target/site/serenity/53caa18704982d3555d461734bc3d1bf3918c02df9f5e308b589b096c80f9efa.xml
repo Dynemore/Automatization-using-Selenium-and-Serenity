@@ -1,0 +1,150 @@
+<acceptance-test-run title="Go to blibli homepage and Login" name="Go to blibli homepage and Login" steps="14" successful="14" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="138315" timestamp="2017-08-14T19:31:30.239+07:00" session-id="978f3646-2e6f-4363-a0fc-b0c7b27b755d">
+  <user-story id="searchChooseAddtoCart" name="Search choose addto cart" path="stories/consult_dictionary/searchChooseAddtoCart.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Search choose addto cart" type="story"/>
+  </tags>
+  <test-group name="Given open home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="78df2532e16ddbcc4d3d7d59ee94c553.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="20061">
+      <screenshots>
+        <screenshot image="1dfce1b4318e18979973d0830f349754.png"/>
+      </screenshots>
+      <description>Open</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I login to blibli" result="SUCCESS">
+    <screenshots>
+      <screenshot image="27c4f82f9c2baa5452f9ec7f7ab98b22.png"/>
+      <screenshot image="c2b18ad7a7971b644eabfcdad470ecf8.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="11888">
+      <screenshots>
+        <screenshot image="8caef9b47c7d0c11ffc8d5424810bdd6.png"/>
+        <screenshot image="cf9a0fa638e2199330de04bcb2bdc342.png"/>
+      </screenshots>
+      <description>Clickuser login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I can see my name in the site" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8d404a3821eccffdb769d4f02a57bd85.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3282">
+      <screenshots>
+        <screenshot image="2735da59c9445035cc9e24331c0eec5a.png"/>
+      </screenshots>
+      <description>Check user already logged in</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="3255">
+    <screenshots>
+      <screenshot image="47e6a95912cde9227fd8013812cdcb0b.png"/>
+      <screenshot image="37a96a8a1f97d66937fb2252239b28b3.png"/>
+    </screenshots>
+    <description>Given Already Logged in</description>
+  </test-step>
+  <test-group name="When I search product &apos;beras&apos; on search column" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2241f84f7e8854e9fddcdb2eee0a62ec.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3532">
+      <screenshots>
+        <screenshot image="4ed2dc5125626a37c5619dc5803e5008.png"/>
+      </screenshots>
+      <description>Type search: &lt;span class=&apos;step-parameter&apos;&gt;beras&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="9982">
+      <screenshots>
+        <screenshot image="22eecf09966c021822d8ef5d69b7d592.png"/>
+        <screenshot image="2241f84f7e8854e9fddcdb2eee0a62ec.png"/>
+      </screenshots>
+      <description>Click search</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I choose product of the first column" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d39d80242da6657d71679c0bca8a04a4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3433">
+      <screenshots>
+        <screenshot image="6a1d3c7a328322d177e06d404116650e.png"/>
+      </screenshots>
+      <description>Close gojek pop up</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="12844">
+      <screenshots>
+        <screenshot image="6a1d3c7a328322d177e06d404116650e.png"/>
+        <screenshot image="d39d80242da6657d71679c0bca8a04a4.png"/>
+      </screenshots>
+      <description>Choose product</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I add the product to the bag" result="SUCCESS">
+    <screenshots>
+      <screenshot image="bdbd9334a301fa04a368f83121651800.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5240">
+      <screenshots>
+        <screenshot image="bdbd9334a301fa04a368f83121651800.png"/>
+      </screenshots>
+      <description>Add to cart</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I see my bag contained" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1d98b1bf90cd462fcff16890e6d92f41.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4856">
+      <screenshots>
+        <screenshot image="1d98b1bf90cd462fcff16890e6d92f41.png"/>
+      </screenshots>
+      <description>Check cart popup</description>
+    </test-step>
+  </test-group>
+  <test-group name="Given Continue to pay" result="SUCCESS">
+    <screenshots>
+      <screenshot image="11bd4947889dd1b6901952841cf9ce89.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8159">
+      <screenshots>
+        <screenshot image="f7e6f230878a0abfc83a8ff4c03b488c.png"/>
+      </screenshots>
+      <description>Continue to payment</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="9123">
+      <screenshots>
+        <screenshot image="f7e6f230878a0abfc83a8ff4c03b488c.png"/>
+        <screenshot image="fbf0fe441dca9e2be96e3f4821af01ad.png"/>
+      </screenshots>
+      <description>Continue to green payment button</description>
+    </test-step>
+  </test-group>
+  <test-group name="When insert BCA klik user id" result="SUCCESS">
+    <screenshots>
+      <screenshot image="75b4711445a34af6a4424f2d250bc736.png"/>
+      <screenshot image="dc8743d774dbcc45e9b554e1d04e7d63.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1269">
+      <screenshots>
+        <screenshot image="75b4711445a34af6a4424f2d250bc736.png"/>
+        <screenshot image="dc8743d774dbcc45e9b554e1d04e7d63.png"/>
+      </screenshots>
+      <description>Insert klik bca user id</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I see thank you page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a2cea1c58677d00bb06b2486b6f067a0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="13153">
+      <screenshots>
+        <screenshot image="a7eb9edbd35948d4d1e55b1f7fcd6537.png"/>
+        <screenshot image="a2cea1c58677d00bb06b2486b6f067a0.png"/>
+      </screenshots>
+      <description>Click last check out button</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

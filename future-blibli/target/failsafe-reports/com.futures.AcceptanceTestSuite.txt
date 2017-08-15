@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.futures.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 161.106 sec - in com.futures.AcceptanceTestSuite

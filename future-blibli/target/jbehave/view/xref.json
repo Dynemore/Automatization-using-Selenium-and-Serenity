@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1502714051015,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to \nAs a user\nI want to perform an action\n",
+      "name": "searchChooseAddtoCart.story",
+      "path": "stories/consult_dictionary/searchChooseAddtoCart.story",
+      "html": "stories.consult_dictionary.searchChooseAddtoCart.html",
+      "meta": "",
+      "scenarios": "Scenario:Go to blibli homepage and Login\nGiven open home page\nWhen I login to blibli\nThen I can see my name in the site\nGiven Already Logged in\nWhen I search product 'beras' on search column\nAnd I choose product of the first column\nAnd I add the product to the bag\nThen I see my bag contained\nGiven Continue to pay\nWhen insert BCA klik user id\nThen I see thank you page\n\n\n",
+      "passed": true,
+      "pending": false,
+      "started": 1502713890139,
+      "duration": 138491
+    }
+  ],
+  "stepMatches": []
+}}

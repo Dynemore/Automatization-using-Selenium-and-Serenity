@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Mon Aug 14 19:33:51 ICT 2017
+stories/consult_dictionary/searchChooseAddtoCart.story=141000
+threads=1
+total=141000
+threadAverage=141000

@@ -1,0 +1,20 @@
+<story path="stories/consult_dictionary/searchChooseAddtoCart.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Go to blibli homepage and Login">
+<step outcome="successful">Given open home page</step>
+<step outcome="successful">When I login to blibli</step>
+<step outcome="successful">Then I can see my name in the site</step>
+<step outcome="successful">Given Already Logged in</step>
+<step outcome="successful">When I search product &apos;beras&apos; on search column</step>
+<step outcome="successful">And I choose product of the first column</step>
+<step outcome="successful">And I add the product to the bag</step>
+<step outcome="successful">Then I see my bag contained</step>
+<step outcome="successful">Given Continue to pay</step>
+<step outcome="successful">When insert BCA klik user id</step>
+<step outcome="successful">Then I see thank you page</step>
+</scenario>
+</story>
